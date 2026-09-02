@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Proteus — a private protein tracker for Android</title>
+<meta name="description" content="A fast, offline-first daily protein and calorie tracker for Android, with a home-screen widget. No accounts, no cloud.">
+<style>
+  :root { --ink: #1a1a1a; --muted: #666; --line: #e5e5e5; --accent: #0b7285; --ok: #10B981; }
+  * { box-sizing: border-box; }
+  body { max-width: 760px; margin: 0 auto; padding: 48px 20px 64px;
+    font: 16px/1.6 -apple-system, Segoe UI, Roboto, sans-serif; color: var(--ink); }
+  h1 { font-size: 34px; margin: 0 0 6px; letter-spacing: -0.02em; }
+  .tag { color: var(--muted); font-size: 15px; margin: 0 0 28px; }
+  .lede { font-size: 19px; line-height: 1.55; }
+  h2 { font-size: 19px; margin: 40px 0 10px; }
+  ul { padding-left: 20px; } li { margin: 7px 0; }
+  a { color: var(--accent); }
+  .cta { display: inline-block; margin: 24px 0 8px; padding: 12px 20px; border-radius: 8px;
+    background: var(--ink); color: #fff; text-decoration: none; font-weight: 600; }
+  .shots { display: flex; gap: 14px; flex-wrap: wrap; margin: 28px 0 0; }
+  .shots img { width: 210px; border: 1px solid var(--line); border-radius: 12px; }
+  footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--line);
+    color: var(--muted); font-size: 14px; }
+  .check { color: var(--ok); }
+</style>
+</head>
+<body>
+
+<h1>Proteus</h1>
+<p class="tag">protein · daily</p>
+
+<p class="lede">A protein tracker that doesn't want an account, works offline, and
+lives on your home screen.</p>
+
+<a class="cta" href="https://play.google.com/store/apps/details?id=com.evworks.proteus&amp;referrer=utm_source%3Dsite%26utm_medium%3Dweb%26utm_campaign%3Dlanding">Get it on Google Play</a>
+
+<!-- Screenshot strip: drop the store PNGs next to this file and uncomment.
+<div class="shots">
+  <img src="screenshot-1-dark.png" alt="Proteus logging screen, dark theme">
+  <img src="screenshot-2-light.png" alt="Proteus logging screen, light theme">
+</div>
+-->
+
+<h2>What it does</h2>
+<ul>
+  <li><strong>One-tap logging.</strong> Save the foods you eat every day as quick-add
+  tiles. No searching the same chicken breast every morning.</li>
+  <li><strong>A home-screen widget.</strong> Today's protein against your goal, at a
+  glance, in four sizes, light or dark. Tap to open.</li>
+  <li><strong>Real nutrition, offline first.</strong> Search any food and Proteus scales
+  protein and calories to the weight you enter — answered from a USDA FoodData
+  Central database bundled inside the app, going online only for the long tail.</li>
+  <li><strong>Goal and progress.</strong> Set a target, watch the bar fill, see
+  <span class="check">reached&nbsp;✓</span> when you get there.</li>
+  <li><strong>Day history, light &amp; dark themes, backup and restore</strong> to a file
+  you keep.</li>
+</ul>
+
+<h2>Why it's private</h2>
+<p>There are no accounts, no cloud, and no server — your food log, goals, presets and
+theme are stored on your device, and there is nowhere for us to send them. Proteus
+uses no analytics or crash-reporting SDKs, and asks for no sensitive permissions at
+all: no location, no camera, no microphone, no contacts, no file access.</p>
+<p>It is free and supported by ads from Google AdMob, which means Google receives your
+device's advertising ID and technical details — never your food log, which the ad SDK
+cannot reach. Where consent is required you're asked first, and a one-time
+<em>Remove ads</em> purchase turns them off for good. The
+<a href="https://mynameiseyal.github.io/privacy/proteus/">privacy policy</a> spells out
+every request that leaves the device.</p>
+
+<footer>
+  Proteus is made by EVWORKS. Questions:
+  <a href="mailto:evworks.dev@gmail.com">evworks.dev@gmail.com</a> ·
+  <a href="https://mynameiseyal.github.io/privacy/proteus/">Privacy policy</a>
+  <br><br>
+  Food data from USDA FoodData Central (public domain). Emoji icons via Iconify.
+</footer>
+
+</body>
+</html>

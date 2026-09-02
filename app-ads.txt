@@ -1,0 +1,6 @@
+# app-ads.txt — authorised sellers for EVWORKS apps (IAB Tech Lab spec).
+# Declares which ad systems may sell inventory in com.evworks.proteus, so
+# spoofed inventory claiming to be this app can be rejected.
+# Contact: evworks.dev@gmail.com
+
+google.com, pub-1163676655031056, DIRECT, f08c47fec0942fa0
