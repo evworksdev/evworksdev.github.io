@@ -16,7 +16,7 @@ we do not own, so AdMob would fetch `https://github.com/app-ads.txt` and never v
 > carries deployment notes that have no business on a public URL an ad crawler
 > fetches. Only the **record line** is authoritative, and it is identical in both.
 
-Privacy policy: <https://mynameiseyal.github.io/privacy/proteus/> — still served from
+Privacy policy: <https://evworksdev.github.io/privacy/proteus/> — still served from
 its own project repo. That URL is quoted in the merchant profile, the live Play
 listing and the AdMob consent message, so moving it is a sequenced job of its own.
 
